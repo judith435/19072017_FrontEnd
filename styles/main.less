@@ -5,12 +5,13 @@
 
 body {
         margin: 0 auto;
-        padding: 20px;
+        padding: 15px;
         font-size: 15px;
+        width: 800px;
+
 
         h1 {
               font-size: 2em;  
-              padding: 20px 0;
               color :rgb(142,40,0);
         }
         h2 {
@@ -22,8 +23,6 @@ body {
         h3 {
               font-size: 1.5em;  
               color :rgb(70,137,102);
-              padding-bottom: 15px;
-
         }
 }    
 
@@ -63,16 +62,18 @@ figure { padding: 10px; }
 // section div { padding: 20px 0}    
 .books-category {
     overflow: hidden;
+
+    .single-book {
+                    float: left;
+                    width: 33%;
+    }
 }
-.single-book {
-    float: left;
-    width: 33%;
-}
+
 main.page-content {
     float: left;
     width: 70%;
-    // padding: 0 15px;
-    // box-sizing: border-box;
+    padding: 0 15px;
+    box-sizing: border-box;
 }
 aside.right-box {
     float: left;
@@ -81,7 +82,12 @@ aside.right-box {
     box-sizing: border-box;
 }
 footer { text-align: center}
+footer.page-footer {
+    clear: both;
+}
+.top-books {
 
+}
 form { 
         font-size: 1.25em; 
         div { margin: 15px; }
